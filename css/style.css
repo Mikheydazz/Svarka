@@ -1,0 +1,85 @@
+main{
+	transition:background 1s;
+	flex: 1 1 auto;
+}
+body{
+	transition:background 1s;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+header{
+	background-color: gray;
+}
+footer{
+	background-color: gray;
+}
+.logoImg{
+	max-width: 280px;
+}
+.container{
+	max-width: 1137px;
+	margin: 0 auto;
+}
+.navigation{
+	height: 30px;
+	margin: auto 0;
+}
+.nav__list{
+	display: flex;
+	list-style: none;
+	height: 30px;
+	margin: auto 0;
+}
+.header{
+	display: flex;
+	justify-content: space-around;
+}
+.nav__list__item{
+	margin: auto 0;
+	margin-right: 20px;
+	font-family: 'Cormorant Garamond';
+}
+@media(max-width: 768px){
+	.header{
+		flex-direction: column;
+	}
+	.logo{
+		margin: 0 auto;
+	}
+	.man{
+		max-width: 400px;
+	}
+	.motto{
+		text-align: center;
+		font-family: 'Cormorant Garamond';
+	}
+	.formBtn{
+		display: block;
+		text-align: center;
+		font-family: 'Cormorant Garamond';
+		background-color: #c0c0c0;
+		font-size: 30px;
+		margin: 0 auto;
+	}
+	a{
+		text-decoration: none;
+	}
+	.about{
+		margin-top: 100px;
+	}
+	.aboutText{
+		font-family: 'Cormorant Garamond';
+	}
+	.about_container{
+		max-width: 340px;
+	}
+	.svarka{
+		max-width: 300px;
+		position: absolute;
+		rotate: -60deg;
+		bottom: 20px;
+		left: 170px;
+		overflow: hidden;
+	}
+}
