@@ -1,45 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Запись на курсы</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/app.js" defer></script>
+	<script src="libs/rain.js" defer></script>
 </head>
 <body>
 
-<header>
-	<div class="container header">
-	<h1 class="logo"><img class="logoImg" src="image/logo.png"></h1>
-	<nav class="navigation">
-		<ul class="nav__list">
-			<li class="nav__list__item">О нас</li>
-			<li class="nav__list__item">Подать заявку</li>
-			<li class="nav__list__item">Контактные данные</li>
-		</ul>
-	</nav>
-	</div>
-</header>
+	<div class="logo" style="background-image: url(img/logo.png);"></div>
 
-<main>
-	<img class="man" src="image/svarshik.png">
-	<h2 class="motto">Подготовим к основному государственному экзамену</h2>
-	<a href="https://forms.gle/dgBqb7wSAPRqtM9o7"><button class="formBtn">Оставить заявку</button></a>
-	<section class="about">
-		<div class="about_container">
-		<h2 class="aboutText">На протяжении 10 лет выпускаем квалифицированных специалистов</h2>
-		<img src="image/svarka.png" class="svarka">
+	<section class="layers">
+		<div class="layers__container">
+			<div class="layers__item layer-1" style="background-image: url(img/layer1.png);"></div>
+			<div class="layers__item layer-2" style="background-image: url(img/layer2.png);"></div>
+			<div class="layers__item layer-3">
+				<div class="hero-content">
+					<h1>APCE</h1>
+					<div class="hero-content__p">Son of the god</div>
+					<button class="button-start">Узнать больше</button>
+				</div>
+			</div>
+			<div class="layers__item layer-4">
+				<canvas class="rain"></canvas>
+			</div>
+			<div class="layers__item layer-5" style="background-image: url(img/layer3.png);"></div>
+			<!-- <div class="layers__item layer-6" style="background-image: url(img/layer-6.png);"></div> -->
 		</div>
 	</section>
-</main>
-
-<footer>
-	<h2 class="motto">Все права защищены</h2>
-</footer>
 
 </body>
 </html>
